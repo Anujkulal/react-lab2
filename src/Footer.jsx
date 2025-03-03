@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-const Footer = (props) => {
+const Footer = ({copyright}) => {
 return (
 <footer>
 <p>{copyright}</p>
